@@ -8,37 +8,9 @@ import { ImageBackground } from 'react-native'
 import {useNavigation} from '@react-navigation/native'
 import { TextInput } from 'react-native'
 
-
-
-// const Cart2 = ()=>{
-//     return(
-//         <View style={{height: 300, flex:1}}>
-//             <ImageBackground source={require('./assets/imgDogCard.png')} style={{height:228, width:232, marginTop:40, marginRight: 16}}>
-//                 <View style={{marginHorizontal:15, marginVertical:15}}>
-//                     <View style={{flexDirection:'row', justifyContent:'space-between', }}>
-//                         <Text style={{color:'#FFFFFF'}}>Until 26.09</Text>
-//                         <Image source={require('./assets/Icon_Like.png')}/>
-//                     </View>
-
-//                     <View style={{flexDirection:'row', marginTop:150, backgroundColor:'rgba(225,225,225,0.3)', borderRadius: 30, width: 135}}>
-//                         <Image source={require('./assets/Ava.png')}/>
-//                         <Text style={{color:'#FFFFFF', marginHorizontal:5}}>Anderson G.</Text>
-//                         <Image source={require('./assets/Icon_Verify.png')}/>
-//                     </View>
-//                 </View>
-                
-//                 <View style={{flexDirection:'row', marginTop: 20, justifyContent:'space-between'}}>
-//                     <Text style={{fontWeight:600, fontSize:16, width:123}}>Go for a walk and feed the dog</Text>
-//                     <Image source={require('./assets/Icon_Chat.png')}/>
-//                 </View>
-//             </ImageBackground>
-//         </View>
-//     )
-// }
-
 const Screen1 = () => {
     const navigation = useNavigation()
-    
+
     const Cart1 = ()=>{
         return(
             <TouchableOpacity style={{marginTop:25, marginLeft: 16, backgroundColor:'#FFFFFF', borderRadius:30}} onPress={()=>navigation.navigate('CartDog')}>

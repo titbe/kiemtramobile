@@ -4,9 +4,8 @@ import { ImageBackground } from 'react-native'
 
 const Screen2 = () => {
   return (
-    <View>
-      <ImageBackground source={require('./assets/MapsicleMap.png')} style={{width:327, height: 662}}>
-
+    <View style={{backgroundColor:'#FFFFFF', alignItems:'center', height:812}}>
+      <ImageBackground source={require('./assets/Maps.png')} style={{width:327, height: 662}}>
       </ImageBackground>
     </View>
   )
